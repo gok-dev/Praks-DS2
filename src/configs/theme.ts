@@ -1,0 +1,56 @@
+import { createStitches } from "@stitches/react";
+
+export const { styled, css } = createStitches({
+  theme: {
+    colors: {
+      primary: "#FCC419",
+      primaryLight: "#FFDF7E",
+      primaryMoreLight: "#FFEFBE",
+      secondary: "#007AFE",
+      success: "#20CE7A",
+      danger: "#E51717",
+      backgroundListVideo: "#F6F6F6",
+      text: "#BCBCBC",
+      cardLight: "#EAEAEA",
+      cardText: "#BCBCBC",
+      cardTextDark: "#757181",
+      cardDarkHover: "#403D4A",
+      cardDark: "#2A2832",
+      menuAndBackground: "#181920",
+      white: "#fff",
+      black: "#0E0E0E",
+      gray500: "hsl(206,10%,76%)",
+      blue500: "hsl(206,100%,50%)",
+      purple500: "hsl(252,78%,60%)",
+      green500: "hsl(148,60%,60%)",
+      red500: "hsl(352,100%,62%)",
+    },
+    space: {
+      1: "5px",
+      2: "10px",
+      3: "15px",
+    },
+    fontSizes: {
+      1: "12px",
+      2: "14px",
+      3: "15px",
+      largeTitle: "52px",
+    },
+    fonts: {
+      ibm: "'IBM Plex Sans Thai Looped', sans-serif",
+      mono: "Söhne Mono, menlo, monospace",
+    },
+    fontWeights: {},
+    lineHeights: {},
+    letterSpacings: {},
+    sizes: {},
+    borderWidths: {},
+    borderStyles: {},
+    borderRadius: {
+      button: "8px",
+    },
+    shadows: {},
+    zIndices: {},
+    transitions: {},
+  },
+});
