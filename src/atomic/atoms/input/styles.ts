@@ -6,10 +6,17 @@ export const Container = styled("div", {
   alignItems: "flex-start",
 });
 
+export const BoxInput = styled("div", {
+  display: "flex",
+  flexDirection: "row",
+  alignItems: "center",
+  border: "solid 1px",
+  padding: "0.3em",
+});
+
 export const Field = styled("input", {
   width: "100%",
-  border: "solid 1px",
-  padding: "0.5em",
+  border: "solid 1px black",
   borderRadius: "0.375rem",
   display: "inline-block",
   background: "transparent",
